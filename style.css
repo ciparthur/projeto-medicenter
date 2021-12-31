@@ -55,6 +55,10 @@ nav a:hover {
     color: white;
 }
 
+nav a:active {
+    background-color: #39a9e1c5;
+}
+
 #banner {
     display: flex;
     justify-content: center;
@@ -137,4 +141,39 @@ nav a:hover {
     color: white;
     font-size: 13px;
     text-decoration: none;
+    transition: 0.1s;
+}
+
+.banner_options a:hover {
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+.banner_options a:active {
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+.days {
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.171);
+    font-size: 14px;
+}
+
+.days p {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.days ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.days li {
+    margin-bottom: 10px;
 }
