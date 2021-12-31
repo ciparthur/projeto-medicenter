@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-/* Cabeçalho */
+/* Inicio do cabeçalho 'header '*/
 header {
     display: flex;
     height: 120px;
@@ -25,6 +25,7 @@ header {
     align-items: center;
 }
 
+/* Inicio do menu */
 .menu {
     display: flex;
     align-items: center;
@@ -59,11 +60,12 @@ nav a:hover {
 nav a:active {
     background-color: #39a9e1c5;
 }
+/* Fim do menu*/
 
-/* Fim do cabeçalho */
+/* Fim do cabeçalho 'header' */
 
-/* Banner */
-
+/* Inicio da seção banner */
+/* Foto principal */
 #banner {
     display: flex;
     justify-content: center;
@@ -77,6 +79,7 @@ nav a:active {
     flex-direction: column;
 }
 
+/* banner título */
 .banner_header {
     flex: 1;
     display: flex;
@@ -103,6 +106,7 @@ nav a:active {
     margin-top: 30px;
 }
 
+/* banner de opções */
 .banner_options {
     height: 210px;
     display: flex;
@@ -182,8 +186,10 @@ nav a:active {
 .days li {
     margin-bottom: 10px;
 }
+/* Fim da seção banner */
 
-/* Fim do banner */
+/* Inicio da seção ... */
 
-/*  */
 
+
+/* Fim da seção ...*/
