@@ -7,6 +7,7 @@ body {
     padding: 0;
 }
 
+/* Cabeçalho */
 header {
     display: flex;
     height: 120px;
@@ -58,6 +59,10 @@ nav a:hover {
 nav a:active {
     background-color: #39a9e1c5;
 }
+
+/* Fim do cabeçalho */
+
+/* Banner */
 
 #banner {
     display: flex;
@@ -177,3 +182,8 @@ nav a:active {
 .days li {
     margin-bottom: 10px;
 }
+
+/* Fim do banner */
+
+/*  */
+
