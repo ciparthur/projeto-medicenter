@@ -4,5 +4,4 @@ Link: https://ciparthur.github.io/projeto-medicenter/
 
 ---
 
- Projeto de um site feito em flexbox.
- 
+ Projeto de um site usando flexbox.
