@@ -282,4 +282,43 @@ article .resumo {
     line-height: 20px;
     margin-bottom: 30px;
 }
+
+aside .cube {
+    background-color: #39AAE1;
+    width: 135px;
+    height: 135px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+aside .aside-text {
+    border-bottom: 1px solid black;
+}
+
+aside .aside-text p {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+aside .aside-contatos {
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    align-items: center;
+}
+
+aside .aside-info {
+    font-size: 13px;
+    margin-bottom: 30px;
+    position: relative;
+    top: 10px;
+}
+
+aside .aside-icon {
+    margin-right: 10px;
+}
+
+aside .aside-icon img {
+    width: 30px;
+}
+
 /* Fim da seção geral */
